@@ -1,0 +1,115 @@
+<!--1What is the correct tag name for list items?-->
+
+<!--The Answer: <li>-->
+
+
+<!--2Which one is NOT a legal element in HTML?-->
+
+<!--The Answer: ll-->
+
+
+<!--3True or False. The list items in ordered lists will be 
+marked with small black circles by default.-->
+
+<!--The Answer: False-->
+
+
+<!--4What is the correct CSS property to use when defining the style of a list marker of unordered lists?-->
+
+<!--The Answer: list-style-type-->
+
+
+
+
+
+<!--5Add a list item with the text "Coffee" inside the <ul>.-->
+
+    <ul>
+        <li>
+        Coffee
+        </li>
+    </ul>
+
+
+
+
+<!--6Finish the HTML code to make an unordered list.-->
+
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+
+
+
+<!--7Use CSS to display squares instead of bullets.-->
+
+<ul style="list-style-type:square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+
+<!--8What is the correct HTML attribute to use when defining the type of the list item marker of ordered lists?-->
+
+<!--Th Answer: type-->
+
+
+
+<!--9Finish the HTML code to make an ordered list.-->
+
+
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+
+<!--10Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.-->
+
+<ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+
+
+  <!--11Use the correct HTML attribute to display uppercase roman numbers.-->
+
+<ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+
+
+  <!--12What is the correct tag name for a description list?-->
+
+<!--The Answer: <dl>-->
+
+
+
+    <!--13Use the correct HTML elements to make a description of each term in the description list.-->
+
+<dl>
+    <dt>Coffee</dt> 
+  <dd>- black hot drink</dd>
+  
+    <dt>Milk</dt>
+    
+  <dd>- white cold drink</dd>
+  
+</dl>
+
+
+
+<!--14What is the correct tag name for describing the term of a definition list?-->
+
+<!--The Answer: dt-->
