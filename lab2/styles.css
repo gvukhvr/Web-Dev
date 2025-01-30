@@ -1,0 +1,259 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu, .auth {
+    display: flex;
+    gap: 15px;
+}
+
+.menu img {
+    height: 30px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Info Bar */
+.info {
+    background: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+
+.box {
+    position: absolute; 
+    background-color: white;
+    width: 60%; 
+    height: 60%;
+    max-width: 550px; 
+    max-height: 400px;
+    top: 50%; 
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+
+.box .h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.box p {
+    line-height: 1.6; 
+    margin-bottom: 10px;
+}
+
+
+.box .button {
+    display: inline-block;
+    background: #0078d4;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.box .button:hover {
+    background-color: blue;
+}
+
+
+.microsoft-card {
+    position: absolute; 
+    width: 60%; 
+    height: 60%;
+    max-width: 550px; 
+    max-height: 400px;
+    top: 50%; 
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    text-align: left;
+    
+}
+
+
+.microsoft-card .h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.microsoft-card p {
+    line-height: 1.6; 
+    margin-bottom: 10px;
+}
+
+
+.microsoft-card .button {
+    display: inline-block;
+    background: #0078d4;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.microsoft-card .button:hover {
+    background-color: blue;
+}
+
+
+.catalog {
+        display: flex;
+        flex-wrap: nowrap; 
+        gap: 20px; 
+        justify-content: center;
+        overflow-x: auto;
+    }
+    
+.item {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 15px;
+        border-radius: 5px;
+        min-width: 180px; 
+    }
+    
+
+.item img {
+    height: 50px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+    gap: 20px;
+    overflow-x: auto; 
+    padding: 40px 20px;
+}
+
+
+.card {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 335px; /* Ширина карточки */
+    height: 500px;
+    text-align: left; /* Выравнивание текста влево */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* Растягивает карточку равномерно */
+    padding: 15px;
+    
+}
+
+.btn-primary {
+    margin-top: auto; 
+    background: #0078d4;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    display: inline-block; /* Убираем растяжение */
+    width: fit-content; /* Ограничивает размер кнопки по содержимому */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.card-body .card-title {
+    font-size: 1.6rem; 
+    min-height: 110px; 
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+}
+.card-body .card-title1 {
+    font-size: 1.6rem; 
+    min-height: 50px; 
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+}
+
+.card-body .card-text {
+    font-size: 1.1rem; 
+    color: black;
+    min-height: 50px; 
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+}
+
+
+.card-body .new {
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: fit-content; 
+    border-radius: 4px;
+}
+
