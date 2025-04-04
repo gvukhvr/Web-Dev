@@ -1,0 +1,52 @@
+[
+    {
+        "model": "api.company",
+        "pk": 1,
+        "fields": {
+            "name": "Google",
+            "description": "Tech company",
+            "city": "Mountain View",
+            "address": "1600 Amphitheatre Pkwy"
+        }
+    },
+    {
+        "model": "api.company",
+        "pk": 2,
+        "fields": {
+            "name": "Amazon",
+            "description": "E-commerce giant",
+            "city": "Seattle",
+            "address": "410 Terry Ave N"
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "pk": 1,
+        "fields": {
+            "name": "Software Engineer",
+            "description": "Python Developer",
+            "salary": 120000,
+            "company": 1
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "pk": 2,
+        "fields": {
+            "name": "Data Scientist",
+            "description": "AI and ML",
+            "salary": 130000,
+            "company": 1
+        }
+    },
+    {
+        "model": "api.vacancy",
+        "pk": 3,
+        "fields": {
+            "name": "Product Manager",
+            "description": "Manage products",
+            "salary": 110000,
+            "company": 2
+        }
+    }
+]
